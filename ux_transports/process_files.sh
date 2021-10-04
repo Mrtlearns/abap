@@ -11,7 +11,8 @@ do
   docker exec -it a4h bash -c "chmod 777 /usr/sap/trans/data/$f"
 
 done
-
+  docker exec -it a4h chmod -R 777 /usr/sap/trans/
+  
 FILES=K*
 for f in $FILES
 do
