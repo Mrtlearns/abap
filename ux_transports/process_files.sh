@@ -23,3 +23,5 @@ do
   tfile=${f:8}${f:0:7}  #construct transport file pattern
   docker exec -it a4h su - a4hadm -c "tp addtobuffer $tfile A4H pf=/usr/sap/trans/bin/TP_DOMAIN_A4H.PFL u168"
 done
+
+mv TRANSPORTS.ON TRANSPORTS.OFF
