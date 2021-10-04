@@ -24,4 +24,4 @@ do
   docker exec -it a4h su - a4hadm -c "tp addtobuffer $tfile A4H pf=/usr/sap/trans/bin/TP_DOMAIN_A4H.PFL u168"
 done
 
-mv TRANSPORTS.ON TRANSPORTS.OFF
+mv ~/TRANSPORTS.ON ~/TRANSPORTS.OFF
