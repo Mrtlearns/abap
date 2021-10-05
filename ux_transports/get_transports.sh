@@ -12,3 +12,4 @@ mkdir -p ~/abaptransports
 mv ~/abap/trunk/ux_transports/R* ~/abaptransports/
 mv ~/abap/trunk/ux_transports/K* ~/abaptransports/
 sudo rm -rf ~/abap
+~/process_files.sh
